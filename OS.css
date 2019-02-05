@@ -1,0 +1,118 @@
+﻿body {
+    background-image: url(xxx.jpg); /* изображение для фона */
+    background-repeat: no-repeat; /* запрещаем повтор изображения */
+    background-attachment: fixed; /* фиксируем изображение */
+    background-position: center; /* центруем изображение */
+    background-color: #ffffff; /* задаем фон, если изображения на странице отключен*/
+}
+
+#menu {
+    /*position:fixed;*/
+    background-color: #ffffff;
+    height: 84px;
+    width: 100%;
+    margin: 0;
+    /*top:0;
+	left:0;*/
+}
+
+    #menu ul {
+        background-color: #ffffff;
+        top: 12px;
+        right: 40px;
+        list-style-type: none; /*убирает точки*/
+        position: absolute;
+    }
+
+    #menu li {
+        float: left;
+        margin-right: 27px;
+    }
+
+        #menu li a {
+            margin: 0 0 0 0;
+            font: 18pt Arial, Verdana, Sans-serif;
+            color: #fccf1b;
+            text-decoration: none;
+        }
+
+.x1 {
+    background-color: #fccf1b;
+    border: 5px solid #000000;
+    border-radius: 50px;
+}
+.x2 {
+    text-decoration:none;
+    color: #000000;
+    background-color: #fccf1b;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 1px;
+}
+    .x2:hover {
+        background-color: #c5fe00;
+        padding: 7px;
+        border: 2px solid #000000;
+    }
+#xyz {
+    transform: scale(2.0);
+    transition: 1s all;
+    background-color: #fccf1b;
+    border: 1px solid #000000;
+    width: 20%;
+    margin-left: 600px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #a07808;
+    
+}
+    #xyz:hover {
+        background-color: #4cff00;
+        box-shadow: 10px 5px 7px #6C422A;
+        transform: rotate(45deg) scale(3.0);
+        transition: 5s all;
+    }
+.tab {
+    list-style-position: inside;
+    background-color: #FCCF1B;
+    border: 1px solid #000000;
+    width: 8.5%;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+    .o {
+        padding-left: 20px;
+    }
+.ov {
+    padding: 9px;
+}
+ .clovo:hover{
+    font-weight:700;
+ }
+.gr {
+    width: 50%;
+    color: #ff0000;
+    margin-left: 350px;
+}
+.t {
+    box-shadow: 7px 7px 5px #6C422A;
+}
+#toop {
+    margin-left: 11.5%;
+    width: 75%;
+    border-top: 8px dashed #fccf1b;
+    border-radius: 25px;
+    padding-left:50px;
+}
+.n {
+    padding-right: 555px;
+}
+input {
+    background-color: #fccf1b; /* голубой фон */
+    color: #000000; /* синий цвет букв */
+    border: 2px solid #000000; /* синяя рамка в два пикселя */
+    padding: 5px; /* внутренний отступ для текста в 5 пикселей */
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius:10px;
+}
